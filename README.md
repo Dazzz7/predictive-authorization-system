@@ -1,5 +1,4 @@
-# predictive-authorization-system
-### Health Insurance Auto-Approval Prediction
+# Health Insurance Auto-Approval Prediction
 
 This project builds a machine learning model to predict whether a prior authorization request for pet healthcare services will be approved or denied, helping automate decision-making in insurance workflows.
 
@@ -11,7 +10,7 @@ Predict authorization status (Approved/Denied)
 Identify key factors influencing approvals
 Support automation of approval workflows
 
-#About the project:
+## About the project:
 This project uses two datasets: Prior Authorization data and Claims data. The prior authorization dataset contains details about service requests such as pet ID, service type, submission date, provider, units, authorization status (approved/denied), auto-approval flag, and clinical reviewer. The claims dataset includes historical records like claim ID, claim type, claim date, amount paid, and provider information. Both datasets were merged using pet_id to link authorization requests with past claim history, enabling a more comprehensive view for prediction.
 
 Data Processing & Feature Engineering:
